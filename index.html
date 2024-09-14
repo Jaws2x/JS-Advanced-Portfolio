@@ -42,18 +42,18 @@ src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
               >Projects</a
             >
           </li>
-          <li class="nav__link">
+          <li class="nav__link" onclick="toggleModal()">
             <a
               href="#"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Contacts</a
             >
           </li>
-          <li class="nav__link click">
+          <li class="nav__link click" onclick="toggleContrast()">
             <a
               href="#"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
-              ><i class="fa-solid fa-circle-half-stroke"></i
+              ><i class="fas fa-adjust"></i
             ></a>
           </li>
         </ul>
@@ -64,11 +64,11 @@ src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
           <h1 class="title gold">I'm Aijaz</h1>
           <p class="header__para">
             I'm an up and coming
-            <b class="gold">Frontend Software Engineer</b> '8with a goal of
+            <b class="gold">Frontend Software Engineer</b> with a goal of
             becoming a very successful and talented Software Engineer that
             brings great value to a company.
             <br />
-            Here's a bit moe <b class="gold">about me</b>.
+            Here's a bit moe <b class="gold click" onclick="toggleModal()"()>about me</b>.
           </p>
           <div class="social__list">
             <a
@@ -125,7 +125,7 @@ src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
           </div>
         </div>
         <div class="modal__half modal__contact">
-        <i class="fas fa-times modal__exit click"></i>
+        <i class="fas fa-times modal__exit click" onclick="toggleModal()"></i>
         <h3 class="modal__title modal__title--contact">
             Let's have a chat!
           </h3>
